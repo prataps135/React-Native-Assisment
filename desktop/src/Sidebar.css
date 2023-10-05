@@ -1,0 +1,20 @@
+ul {
+  list-style-type: none;
+  padding: 0px;
+  overflow-y: scroll;
+}
+li {
+  color: var(--neutral-gray, #737d94);
+
+  /* Muli/Xtrabold/16pt */
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%; /* 22.4px */
+  padding: 10px 40px 10px 20px;
+  border-radius: 10px;
+}
+li button {
+  all: unset;
+}

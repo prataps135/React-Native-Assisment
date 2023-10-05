@@ -1,0 +1,67 @@
+.mainContainer {
+  padding: 0px 16px;
+  overflow: scroll;
+}
+.HeadLine {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.HeadLine img {
+  height: 36px;
+  width: 36px;
+}
+
+.fruits {
+  display: flex;
+  gap: 16px;
+}
+
+.fruits h3 {
+  color: var(--neutral-dark-blue, #100e3a);
+
+  /* Muli/Bold/Web/20pt */
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 28px */
+}
+.fruits h4 {
+  color: var(--neutral-dark-blue, #100e3a);
+
+  /* Muli/Semibold/16pt */
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+}
+.fruits h5 {
+  color: var(--neutral-light-gray, #b6bac3);
+
+  /* Muli/Semibold/16pt */
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+}
+
+.fruits h3,h4,h5{
+    margin: 2px;
+}
+
+.fruits .down{
+    position:relative;
+}
+
+.fruits .up{
+    position: absolute;
+    top: 50px;
+    right:0px
+}
+.fruits button{
+    all:unset;
+}
